@@ -1,0 +1,44 @@
+#titulo {
+	font-size: 30px;
+}
+body{
+	background: black;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	min-height: 100px;
+	background:#0066FF;
+	align-items: center;
+	padding: 5px;
+	margin-left: 5px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+nav a{
+	padding-right: 10px;
+}
+nav a:hover{
+	color: white;
+}
+p{
+	color: white;
+}
+img{
+	width: 20%;
+	padding: 15px;
+}
+table{
+	color: white;
+}
+@media (max-width: 700px){
+	header{
+		flex-direction: column;
+	}
+	nav{
+		padding: 10px ;
+	}
+}
+
